@@ -1,0 +1,7 @@
+version: "3.8"
+
+services:
+  simple-project:
+    build: .
+    ports:
+      - "8181:8082"
